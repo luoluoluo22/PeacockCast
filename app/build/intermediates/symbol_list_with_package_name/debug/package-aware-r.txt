@@ -3000,14 +3000,9 @@ id beginning
 id blocking
 id bottom
 id bounce
-id btn_arrange_windows
-id btn_compact_density
 id btn_demo_toggle
-id btn_fill_default_apps
-id btn_fill_running_apps
 id btn_launch_app
 id btn_mirror_toggle
-id btn_reset_density
 id btn_sim_toggle
 id btn_toggle
 id buttonPanel
@@ -3077,7 +3072,6 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
-id et_window_packages
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3568,6 +3562,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+mipmap ic_launcher
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description

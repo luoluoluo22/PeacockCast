@@ -25,114 +25,116 @@
 15-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:9:22-74
 16
 17    <permission
-17-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\75919e89ab9acfe92b320b18b5eba894\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 18        android:name="com.yukino.airbeamcompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-18-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\75919e89ab9acfe92b320b18b5eba894\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 19        android:protectionLevel="signature" />
-19-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\75919e89ab9acfe92b320b18b5eba894\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 20
 21    <uses-permission android:name="com.yukino.airbeamcompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-21-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\75919e89ab9acfe92b320b18b5eba894\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-21-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\75919e89ab9acfe92b320b18b5eba894\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 22
 23    <application
-23-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:12:5-54:19
+23-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:12:5-55:19
 24        android:allowBackup="true"
 24-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:13:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\75919e89ab9acfe92b320b18b5eba894\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\a309491863f1cad1388d82071cb60f8c\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 26        android:debuggable="true"
 27        android:extractNativeLibs="false"
-28        android:label="@string/app_name"
-28-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:14:9-41
-29        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-29-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:15:9-65
-30        <activity
-30-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:17:9-24:20
-31            android:name="com.yukino.airbeamcompanion.MainActivity"
-31-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:18:13-41
-32            android:exported="true" >
-32-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:19:13-36
-33            <intent-filter>
-33-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:20:13-23:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:21:17-69
-34-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:21:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:22:17-77
-36-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:22:27-74
-37            </intent-filter>
-38        </activity>
-39
-40        <service
-40-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:26:9-34:19
-41            android:name="com.yukino.airbeamcompanion.CompanionService"
-41-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:27:13-45
-42            android:enabled="true"
-42-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:28:13-35
-43            android:exported="false"
-43-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:29:13-37
-44            android:foregroundServiceType="specialUse" >
-44-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:30:13-55
-45            <property
-45-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:31:13-33:50
-46                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-46-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:32:17-76
-47                android:value="ScreenOffForAR" />
-47-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:33:17-47
-48        </service>
-49        <service
-49-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:36:9-40:63
-50            android:name="com.yukino.airbeamcompanion.MirrorService"
-50-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:37:13-42
-51            android:enabled="true"
-51-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:38:13-35
-52            android:exported="false"
-52-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:39:13-37
-53            android:foregroundServiceType="mediaProjection" />
-53-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:40:13-60
-54        <service
-54-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:43:9-52:19
-55            android:name="com.yukino.airbeamcompanion.AirBeamTileService"
-55-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:44:13-47
-56            android:exported="true"
-56-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:48:13-36
-57            android:icon="@drawable/ic_tile_icon"
-57-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:45:13-50
-58            android:label="@string/tile_label"
-58-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:46:13-47
-59            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
-59-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:47:13-77
-60            <intent-filter>
-60-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:49:13-51:29
-61                <action android:name="android.service.quicksettings.action.QS_TILE" />
-61-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:50:17-87
-61-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:50:25-84
-62            </intent-filter>
-63        </service>
-64
-65        <provider
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\4db699d37aeb53b95d33ff3db7cc3cca\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-66            android:name="androidx.startup.InitializationProvider"
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\4db699d37aeb53b95d33ff3db7cc3cca\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-67            android:authorities="com.yukino.airbeamcompanion.androidx-startup"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\4db699d37aeb53b95d33ff3db7cc3cca\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-68            android:exported="false" >
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\4db699d37aeb53b95d33ff3db7cc3cca\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-69            <meta-data
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\4db699d37aeb53b95d33ff3db7cc3cca\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\4db699d37aeb53b95d33ff3db7cc3cca\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-71                android:value="androidx.startup" />
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\4db699d37aeb53b95d33ff3db7cc3cca\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-72            <meta-data
-72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\644bbf8f5e2ecfe65e8d027b17221503\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\644bbf8f5e2ecfe65e8d027b17221503\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-74                android:value="androidx.startup" />
-74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\644bbf8f5e2ecfe65e8d027b17221503\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-75        </provider>
-76    </application>
-77
-78</manifest>
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:14:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:15:9-41
+30        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+30-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:16:9-65
+31        <activity
+31-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:18:9-25:20
+32            android:name="com.yukino.airbeamcompanion.MainActivity"
+32-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:19:13-41
+33            android:exported="true" >
+33-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:20:13-36
+34            <intent-filter>
+34-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:21:13-24:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:22:17-69
+35-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:23:17-77
+37-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:23:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:27:9-35:19
+42            android:name="com.yukino.airbeamcompanion.CompanionService"
+42-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:28:13-45
+43            android:enabled="true"
+43-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:29:13-35
+44            android:exported="false"
+44-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:30:13-37
+45            android:foregroundServiceType="specialUse" >
+45-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:31:13-55
+46            <property
+46-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:32:13-34:50
+47                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+47-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:33:17-76
+48                android:value="ScreenOffForAR" />
+48-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:34:17-47
+49        </service>
+50        <service
+50-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:37:9-41:63
+51            android:name="com.yukino.airbeamcompanion.MirrorService"
+51-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:38:13-42
+52            android:enabled="true"
+52-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:39:13-35
+53            android:exported="false"
+53-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:40:13-37
+54            android:foregroundServiceType="mediaProjection" />
+54-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:41:13-60
+55        <service
+55-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:44:9-53:19
+56            android:name="com.yukino.airbeamcompanion.AirBeamTileService"
+56-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:45:13-47
+57            android:exported="true"
+57-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:49:13-36
+58            android:icon="@drawable/ic_tile_icon"
+58-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:46:13-50
+59            android:label="@string/tile_label"
+59-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:47:13-47
+60            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+60-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:48:13-77
+61            <intent-filter>
+61-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:50:13-52:29
+62                <action android:name="android.service.quicksettings.action.QS_TILE" />
+62-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:51:17-87
+62-->C:\Users\Administrator\Documents\antigravity\modest-davinci\AirBeamCompanion\app\src\main\AndroidManifest.xml:51:25-84
+63            </intent-filter>
+64        </service>
+65
+66        <provider
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+68            android:authorities="com.yukino.airbeamcompanion.androidx-startup"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+69            android:exported="false" >
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+70            <meta-data
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+72                android:value="androidx.startup" />
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\70145bbbde0c2efc56f871bf5a5b1060\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\0c97545945a2f609e9103ca2ef476be4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\0c97545945a2f609e9103ca2ef476be4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\0c97545945a2f609e9103ca2ef476be4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+76        </provider>
+77    </application>
+78
+79</manifest>

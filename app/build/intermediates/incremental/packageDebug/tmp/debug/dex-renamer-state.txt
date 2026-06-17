@@ -1,4 +1,4 @@
-#Wed Jun 17 12:16:06 CST 2026
+#Wed Jun 17 16:20:31 CST 2026
 base.2=C\:\\Users\\Administrator\\Documents\\antigravity\\modest-davinci\\AirBeamCompanion\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
 path.2=5/classes.dex
 base.1=C\:\\Users\\Administrator\\Documents\\antigravity\\modest-davinci\\AirBeamCompanion\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

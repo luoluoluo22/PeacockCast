@@ -1,17 +1,11 @@
 R_DEF: Internal format may change without notice
 local
 drawable ic_tile_icon
-id btn_arrange_windows
-id btn_compact_density
 id btn_demo_toggle
-id btn_fill_default_apps
-id btn_fill_running_apps
 id btn_launch_app
 id btn_mirror_toggle
-id btn_reset_density
 id btn_sim_toggle
 id btn_toggle
-id et_window_packages
 id header_layout
 id mirror_texture_view
 id root_layout
@@ -21,5 +15,6 @@ id tv_footer
 id tv_status
 layout activity_main
 layout presentation_layout
+mipmap ic_launcher
 string app_name
 string tile_label
