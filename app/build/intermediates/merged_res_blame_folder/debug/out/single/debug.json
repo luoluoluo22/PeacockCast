@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.yukino.airbeamcompanion.app-merged_res-28:/layout_presentation_layout.xml.flat",
+        "source": "com.yukino.airbeamcompanion.app-main-30:/layout/presentation_layout.xml"
+    },
+    {
+        "merged": "com.yukino.airbeamcompanion.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "com.yukino.airbeamcompanion.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.yukino.airbeamcompanion.app-merged_res-28:/drawable_ic_tile_icon.xml.flat",
+        "source": "com.yukino.airbeamcompanion.app-main-30:/drawable/ic_tile_icon.xml"
+    }
+]

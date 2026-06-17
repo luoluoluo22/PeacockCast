@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="24dp">
+
+    <!-- 顶层标题与控制区 -->
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✦ AR 独立空间 DEMO ✦"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#00E6FF"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_coordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="触摸坐标: X: -- , Y: --"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#39FF14"/> 
+    </LinearLayout>
+
+    <!-- 手机屏幕镜像的显示区域（当镜像功能开启时显示） -->
+    <TextureView
+        android:id="@+id/mirror_texture_view"
+        android:layout_width="280dp"
+        android:layout_height="480dp"
+        android:layout_below="@id/header_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/tv_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="请在手机主屏的蓝色触摸板上滑动，实时看坐标反馈"
+        android:textColor="#6C7A89"
+        android:textSize="14sp" />
+
+</RelativeLayout>

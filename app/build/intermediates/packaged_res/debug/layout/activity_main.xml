@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="top|center_horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AirBeam 息屏伴侣"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#212529"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="状态：未启用"
+        android:textSize="14sp"
+        android:textColor="#495057"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_toggle"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="开启息屏"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#007BFF"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DEE2E6"
+        android:layout_marginBottom="16dp" />
+
+    <!-- AR Presentation Demo 控制区 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✦ AR 空间独立画板 Demo ✦"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#198754"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn_sim_toggle"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="开启模拟副屏 (免眼镜调试)"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6C757D"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_demo_toggle"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="启动 AR 独立画板"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#198754"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_mirror_toggle"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="开启主屏镜像 (效果A)"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D6EFD"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_launch_app"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="抛送网页到眼镜 (效果B)"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FD7E14"
+        android:elevation="2dp"
+        android:layout_marginBottom="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DEE2E6"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多窗口编排实验"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#6F42C1"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/et_window_packages"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:gravity="top|start"
+        android:hint="每行一个包名，例如：&#10;com.android.settings&#10;org.videolan.vlc"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:padding="10dp"
+        android:textColor="#212529"
+        android:textColorHint="#6C757D"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/btn_fill_running_apps"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:text="已打开 App"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#495057" />
+
+        <Button
+            android:id="@+id/btn_fill_default_apps"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:text="常用 App"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#495057" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_arrange_windows"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:text="横屏编排多窗口"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6F42C1"
+        android:elevation="2dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btn_compact_density"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:text="紧凑显示"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#20C997" />
+
+        <Button
+            android:id="@+id/btn_reset_density"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:text="恢复显示"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6C757D" />
+    </LinearLayout>
+
+    <!-- 虚拟触摸板 -->
+    <FrameLayout
+        android:id="@+id/touch_pad"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#E9ECEF"
+        android:elevation="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="【 虚拟触摸画板 】\n请在此处滑动，眼镜中会显示您的触控位置"
+            android:textColor="#6C757D"
+            android:gravity="center"
+            android:textSize="14sp" />
+    </FrameLayout>
+        
+</LinearLayout>
+</ScrollView>
